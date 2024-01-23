@@ -14,7 +14,7 @@ class ShoppingCart {
     }
 
     addToCart(product, quantity = 1) {
-        for (let i = 0; i < quantity; i++) {
+        for (let m = 0; m < quantity; m++) {
             this.items.push(product);
         }
         console.log(`${quantity} ${product.name}(s) added to the cart.`);
